@@ -1,7 +1,7 @@
 import React from "react";
 
 const App = () => {
-  return <div class="text-orange-500">App</div>;
+  return <div class="text-red-500">App</div>;
 };
 
 export default App;
