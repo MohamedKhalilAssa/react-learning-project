@@ -1,8 +1,9 @@
 import React from "react";
 
 const Card = ({ color = "gray", title, button }) => {
+  color = `bg-${color}-100`;
   return (
-    <div className={`bg-${color}-100 p-6 rounded-lg shadow-md`}>
+    <div className={`${color}  p-6 rounded-lg shadow-md`}>
       <h2 className="text-2xl font-bold">For Developers</h2>
       <p className="mt-2 mb-4">{title}</p>
       <a
